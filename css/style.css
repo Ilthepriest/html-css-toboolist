@@ -1,3 +1,13 @@
+:root{
+    --blue: #09A9ED;
+    --violet: #AB5DE6;
+    --lightgreen: #2CC6AB;
+    --orange: #FF9B00;
+    --pink: #EC4A9D;
+    --yellowgreen: #A3D116;
+    --lightgrey: #F6F8F9;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -5,7 +15,7 @@
 }
 
 body{
-    background-color: lightgray;
+    background-color: var(--lightgrey);
 }
 
 header{
@@ -42,7 +52,7 @@ nav{
 }
 
 .button1{
-    background-color: lightblue;
+    background-color: var(--blue);
     border-radius: 5px;
     border: 0px;
     margin-left: 50px;
@@ -66,7 +76,6 @@ nav{
 
 .contenuto{
     width: 75%;
-    height: 1000px;
     margin: 0 auto;
     background-color: white;
     margin-top: 0.1rem;
@@ -131,25 +140,30 @@ h2{
 
 .coloreviola
 {
-    background-color: blueviolet;
+    background-color: var(--violet);
 }
 
 .colorearancione{
-    background-color: orange;
+    background-color: var(--orange);
 }
 
 .coloreverde{
-    background-color: lightgreen;
+    background-color: var(--lightgreen);
 }
 
 .coloreblu{
-    background-color: lightblue;
+    background-color: var(--blue);
 }
 
 .coloregiallo{
-    background-color: yellowgreen;
+    background-color: var(--yellowgreen);
 }
 
 .colorerosa{
-    background-color: deeppink;
+    background-color: var(--pink);
+}
+
+footer{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
