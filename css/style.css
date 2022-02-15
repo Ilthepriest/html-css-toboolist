@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -20,7 +20,6 @@ header{
     background-size: contain;
     display: inline-block;
     vertical-align: middle;
-    
 }
 
 #titolo{
@@ -28,17 +27,18 @@ header{
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     font-weight: bold;
-    vertical-align: middle; 
+    vertical-align: middle;
+    line-height: 100px;
 }
 
 nav{
     width: 75%;
     height: 100px;
-    border: 1px solid black;
     margin: 0 auto;
     margin-top: 5rem;
     line-height: 100px;
     background-color: white;
+    border-radius: 10px;
 }
 
 .button1{
@@ -62,4 +62,94 @@ nav{
     width: 100px;
     height: 40px;
     font-weight: 600;
+}
+
+.contenuto{
+    width: 75%;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 0.1rem;
+    border-radius: 10px;
+}
+
+.titoli{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.etichette{
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+}
+
+.simbolospunta{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid green;
+    color: green;
+    font-size: 13px;
+    padding: 1.5px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+}
+
+.simbolox{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid red;
+    color: red;
+    font-size: 13px;
+    padding: 1.5px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+}
+
+h2{
+    font-family:'Roboto', sans-serif; 
+    margin-bottom: 10px;
+}
+
+.font{
+    font-family:'Roboto', sans-serif; 
+}
+
+.margine{
+    padding-bottom: 20px;
+}
+
+.coloreviola
+{
+    background-color: blueviolet;
+}
+
+.colorearancione{
+    background-color: orange;
+}
+
+.coloreverde{
+    background-color: lightgreen;
+}
+
+.coloreblu{
+    background-color: lightblue;
+}
+
+.coloregiallo{
+    background-color: yellowgreen;
+}
+
+.colorerosa{
+    background-color: deeppink;
 }
